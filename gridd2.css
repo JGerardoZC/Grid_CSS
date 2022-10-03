@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+.centerPadre {
+    position:relative;
+    width: 100%;
+    height: 100%;
+}
+  
+.centerHijo {
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -125px 0 0 -125px;
+}
+
+.one {
+    background-color: purple;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    font-size: 70px;
+}
+
+.two {
+    background-color: orange;
+    width: 50%;
+    height: 100%;
+    right: 0;
+    font-size: 60px;
+    position: absolute;
+    text-align: end;
+}
